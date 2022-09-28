@@ -1,0 +1,68 @@
+/*look how to set padding and margin of #horizontal 
+by calculating them in function of grid height and width
+Might have to use JS to do it*/
+
+* { margin : 0; padding: 0; }
+
+html { margin : 0; padding: 0; }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+
+#horizontal {
+    position: absolute;
+    top: 5vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: pink;
+    padding: 10px 0 10px 0;
+    font-family: Comic Sans MS;
+}
+
+#left {
+    position: absolute;
+    left: 15vw;
+}
+
+#title {
+    font-family: Comic Sans MS;
+    position: absolute;
+    top: 20vh;
+    min-width: max-content;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    font-size: 24px;
+    position: absolute;
+    top: 40vh;
+    padding: 10px 5px 10px 5px;
+    border-radius: 10px;
+    min-width: max-content;
+}
+
+
+#grid {
+    display: grid;
+    border: 1px solid;
+    height : 80vh;
+    width: 80vh;
+    position: absolute;
+    left: 50vw;
+}
+
+
+
+
+
